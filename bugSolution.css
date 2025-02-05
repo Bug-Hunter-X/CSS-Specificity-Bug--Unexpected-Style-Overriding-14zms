@@ -1,0 +1,13 @@
+/* bugSolution.css */
+#container .box {
+  background-color: lightblue;
+}
+
+#container2 .box {
+  background-color: lightcoral;
+}
+
+/* This adds higher specificity to the first .box selector to fix the problem*/
+#container #box1{
+  background-color: lightblue;
+}
